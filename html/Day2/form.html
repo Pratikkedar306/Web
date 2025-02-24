@@ -1,0 +1,169 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            table {
+            
+                border: 2px solid ;
+            }
+            th, td {
+                border: 1px solid black;
+            
+                text-align: left;
+                padding-left:10px ;
+                padding-top: 5px; 
+                padding-bottom: 5px;
+                padding-right: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <center>
+            <table>
+                <form action="../Day1/table.html">
+                    <tr>
+                        <th colspan="4">
+                            <center><h2>Registrartion Form</h2></center>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="sname">Student Name</label>
+                        </td>
+                        <td >
+                            <input type="text" name="sname" id="sname" required placeholder="First Name"  maxlength="15">
+                        </td>
+                        <td>
+                            <input type="text" name="sname" id="sname" placeholder="Middle Name" maxlength="15">
+                        </td>
+                        <td>
+                            <input type="text" name="sname" id="sname" placeholder="Last Name" maxlength="15"> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="fname">Father's Name</label>
+                        </td>
+                        <td>
+                            <input type="text" name="fname" id="fname" placeholder="Enter your Fathers Name" maxlength="15">
+                        </td>
+                        <td>
+                            <label for="mname">Mother's Name</label>
+                        </td>
+                        <td>
+                            <input type="text" name="mname" id="mname" placeholder="Enter your Mothers Name" maxlength="15">
+                        </td>
+                        
+                        </tr>
+                    <tr>
+                        <td>
+                                <label for="dob">Date of Birth</label>
+                        </td>
+                        <td>
+                                <input type="date" name="dob" id="dob">
+                        </td>
+                        <td>
+                            <label for="gender">Gender</label>
+                        </td>
+                        <td>
+                            <label for="g1">Male</label><input type="radio" name="gender" id="g1">
+                            <label for="g2">Female</label><input type="radio" name="gender" id="g2">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="caste">Catogory</label>
+                        </td>
+                        <td>
+                            <label for="o1">Open</label>
+                            <input type="radio" name="caste" id="o1">
+                            <label for="o2">OBC</label>
+                            <input type="radio" name="caste" id="o2">
+                        <label for="o3">SC/ST</label>
+                            <input type="radio" name="caste" id="o3">
+                        </td>
+                        <td>
+                            <label for="ph">Physically Handicapped</label>
+                        </td>
+                        <td>
+                            <input type="radio" name="ph" id="p1">
+                            <label for="p1">Yes</label>
+                            <input type="radio" name="ph" id="p2">
+                            <label for="p2">No</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="email">Email ID</label>
+                        </td>
+                        <td>
+                            <input type="email" name="email" id="email" placeholder="Enter your Email ID">
+                        </td>
+                        <td>
+                            <label for="no">Mobile No.</label>
+                        </td>
+                        <td>
+                            <input type="tel" name="no" id="no" placeholder="Enter your Mobile No.">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="state">State</label>
+
+                        </td>
+                        <td>
+                            <select name="state" id="state">
+                                <option >-Select State-</option>>
+                                <option value="1">Maharashtra</option>
+                                <option value="2">Gujarat</option>
+                                <option value="3">Rajasthan</option>
+                                <option value="4">Punjab</option>
+                                <option value="5">Kerala</option>
+                            </select>
+                        </td>
+                        <td>
+                        <label for="city">City</label> 
+
+                        </td>
+                        <td>
+                            <select name="city" id="city">
+                                <option>-Select City-</option>
+                                <option value="1">Mumbai</option>
+                                <option value="2">Pune</option>
+                                <option value="3">Nagpur</option>
+                                <option value="4">Nashik</option>
+                                <option value="5">Aurangabad</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="photo">Upload Photo</label>
+                        </td>
+                        <td>
+                            <input type="file" name="photo" id="photo">
+                        </td>
+                        <td>
+                            <label for="sign">Upload Signature</label>
+                        </td>
+                        <td>
+                            <input type="file" name="sign" id="sign">
+                        </td>
+                    </tr>
+                    <tr >
+                        <td></td>
+                        <td colspan="4" style="text-align: center; padding-top: 5px; padding-bottom: 5px;">
+                            <input type="submit" value="Submit">
+                            <input type="reset" value="Reset">
+                        </td>
+                    </tr>
+
+                </form>
+            </table>
+        </center>
+
+    </body>
+    </html>
