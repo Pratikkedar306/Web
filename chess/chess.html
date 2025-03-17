@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chess Board</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="https://images.scalebranding.com/horse-chess-logo-4d3a344a-31cd-4b66-b938-a06db92f70b3.jpg" type="image/x-icon">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        .chessboard {
+            display: grid;
+            grid-template-columns: repeat(8, 80px);
+            grid-template-rows: repeat(8, 80px);
+            width: 640px;
+            height: 640px;
+            border: 4px solid black;
+        }
+        .square {
+            width: 80px;
+            height: 80px;
+        }
+        .black {
+            background-color: #769656;
+        }
+        .white {
+            background-color: #eeeed2;
+        }
+        .fas {
+            font-size: 40px;
+            color: #0000007f;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+        .p1{
+            color: #000000;
+        }
+        .p2{
+            color: #175177;
+        }
+    </style>
+</head>
+<body>
+    <div class="chessboard">
+            <div class="square white"><i class='fas fa-chess-rook p1'></i></div>
+            <div class="square black"><i class='fas fa-chess-knight p1'></i></div>
+            <div class="square white"><i class='fas fa-chess-bishop p1'></i></div>
+            <div class="square black"><i class='fas fa-chess-queen p1'></i></div>
+            <div class="square white"><i class='fas fa-chess-king p1'></i></div>
+            <div class="square black"><i class='fas fa-chess-bishop p1'></i></div>
+            <div class="square white"><i class='fas fa-chess-knight p1'></i></div>
+            <div class="square black"><i class='fas fa-chess-rook p1'></i></div>
+
+            <div class="square black"><i class="fas fa-chess-pawn p1"></i></div>
+            <div class="square white"><i class="fas fa-chess-pawn p1"></i></div>
+            <div class="square black"><i class="fas fa-chess-pawn p1"></i></div>
+            <div class="square white"><i class="fas fa-chess-pawn p1"></i></div>
+            <div class="square black"><i class="fas fa-chess-pawn p1"></i></div>
+            <div class="square white"><i class="fas fa-chess-pawn p1"></i></div>
+            <div class="square black"><i class="fas fa-chess-pawn p1"></i></div>
+            <div class="square white"><i class="fas fa-chess-pawn p1"></i></div>
+
+            <div class="square white"></div>
+            <div class="square black"></div>
+            <div class="square white"></div>
+            <div class="square black"></div>
+            <div class="square white"></div>
+            <div class="square black"></div>
+            <div class="square white"></div>
+            <div class="square black"></div>
+            
+            <div class="square black"></div>
+            <div class="square white"></div>
+            <div class="square black"></div>
+            <div class="square white"></div>
+            <div class="square black"></div>
+            <div class="square white"></div>
+            <div class="square black"></div>
+            <div class="square white"></div>
+
+            <div class="square white"></div>
+            <div class="square black"></div>
+            <div class="square white"></div>
+            <div class="square black"></div>
+            <div class="square white"></div>
+            <div class="square black"></div>
+            <div class="square white"></div>
+            <div class="square black"></div>
+
+            <div class="square black"></div>
+            <div class="square white"></div>
+            <div class="square black"></div>
+            <div class="square white"></div>
+            <div class="square black"></div>
+            <div class="square white"></div>
+            <div class="square black"></div>
+            <div class="square white"></div>
+
+            <div class="square white"><i class="fas fa-chess-pawn p2"></i></div>
+            <div class="square black"><i class="fas fa-chess-pawn p2"></i></div>
+            <div class="square white"><i class="fas fa-chess-pawn p2"></i></div>
+            <div class="square black"><i class="fas fa-chess-pawn p2"></i></div>
+            <div class="square white"><i class="fas fa-chess-pawn p2"></i></div>
+            <div class="square black"><i class="fas fa-chess-pawn p2"></i></div>
+            <div class="square white"><i class="fas fa-chess-pawn p2"></i></div>
+            <div class="square black"><i class="fas fa-chess-pawn p2"></i></div>
+
+            <div class="square black"><i class='fas fa-chess-rook p2'></i></div>
+            <div class="square white"><i class='fas fa-chess-knight p2'></i></div>
+            <div class="square black"><i class='fas fa-chess-bishop p2'></i></div>
+            <div class="square white"><i class='fas fa-chess-queen p2'></i></div>
+            <div class="square black"><i class='fas fa-chess-king p2' ></i></div>
+            <div class="square white"><i class='fas fa-chess-bishop p2'></i></div>
+            <div class="square black"><i class='fas fa-chess-knight p2'></i></div>
+            <div class="square white"><i class='fas fa-chess-rook p2'></i></div>
+
+    </div>
+</body>
+</html>
